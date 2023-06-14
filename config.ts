@@ -7,6 +7,7 @@ const dbConfig = {
   password: "your_password",
   host: "your_host",
   dialect: "mssql",
+  integratedSecurity: true,
 };
 
 export default dbConfig;
